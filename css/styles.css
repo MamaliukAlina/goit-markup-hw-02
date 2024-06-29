@@ -83,6 +83,7 @@ header nav a:focus {
 }
 .hero-title {
   color: #FFFFFF;
+  text-align: center;
 }
 .hero-btn {
   font-weight: 500;
