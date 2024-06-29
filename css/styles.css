@@ -21,12 +21,15 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  text-align: center;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 h3 {
@@ -83,7 +86,6 @@ header nav a:focus {
 }
 .hero-title {
   color: #FFFFFF;
-  text-align: center;
 }
 .hero-btn {
   font-weight: 500;
@@ -101,6 +103,9 @@ header nav a:focus {
 /* section team */
 .team {
   background: #F4F4FD;
+}
+.team-list-item {
+  background-color: #FFFFFF;
 }
 
 /* section footer */
