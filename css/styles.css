@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -10,29 +5,34 @@ body {
   font-style: normal;
   line-height: 1.5;
   color: #434455;
+  background-color: #FFFFFF;
   letter-spacing: 0.02em;
 }
 
 /* Typography */
+h1,
+h2,
+h3 {
+  color: #2E2F42;
+  letter-spacing: 0.02em;
+}
+
 h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  color: #2E2F42;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
-  color: #2E2F42;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  color: #2E2F42;
 }
 
 a {
@@ -50,44 +50,51 @@ ul {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2E2F42;
+  color: #4D5AE5;
   text-transform: uppercase;
 }
 .logo span {
-  color: #4D5AE5;
+  color: #2E2F42;
 }
-header nav ul li a {
+header nav a {
   font-weight: 500;
   color: #2E2F42;
   text-transform: uppercase;
 }
-header nav ul li a:hover {
+header nav a:hover,
+header nav a:focus {
   color: #404BBF;
 }
 
-header address {
+.address {
   font-style: normal;
 }
-header address ul li a {
+.address a {
   color: #434455;
 }
-header address ul li a:hover {
+.address a:hover,
+.address a:focus {
   color: #404BBF;
 }
 
 /* section hero */
 .hero {
   background-color: #2E2F42;
-  text-align: center;
 }
-.hero h1 {
+.hero-title {
   color: #FFFFFF;
 }
-.hero button {
+.hero-btn {
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #FFFFFF;
   background: #4D5AE5;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404BBF;
 }
 
 /* section team */
