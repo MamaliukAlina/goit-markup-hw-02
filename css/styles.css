@@ -109,5 +109,8 @@ footer {
   background-color: #2E2F42;
 }
 footer .logo {
+  color: #4D5AE5;
+}
+footer .logo span {
   color: #F4F4FD;
 }
