@@ -62,7 +62,6 @@ ul {
 header nav a {
   font-weight: 500;
   color: #2E2F42;
-  text-transform: uppercase;
 }
 header nav a:hover,
 header nav a:focus {
